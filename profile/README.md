@@ -1,65 +1,84 @@
+# 🌱 AgriGuildDAO Platform Status
 
-# 📦 AgriTrade DAO Platform Status
+Welcome to the official status board for **AgriGuildDAO**.  
+We’re in the middle of a major refactor—migrating our core services to **Rust-based REST APIs with proper CORS** to improve speed, security, and developer experience.
 
-Welcome to the official status board for the AgriTrade DAO platform.  
-We’re currently undergoing scheduled upgrades to improve trade execution, onboarding, and multilingual support.
-
-Not affiliated with Terra (LUNA) or Terraform Labs. Built on Solana.
-
+Not affiliated with Terra (LUNA) or Terraform Labs. Built independently on **Solana**.
 
 ---
 
-## 🌍 What is TerraDAO?
+## 🌍 What is AgriGuildDAO?
 
-**TerraDAO is a decentralized protocol for global agriculture trade.**  
-We help farmers, cooperatives, distributors, and logistics providers transact securely using smart contracts, USDC-based escrow, and transparent dispute resolution—**without intermediaries**.
+**AgriGuildDAO is a decentralized governance and marketplace protocol for agriculture.**  
+We connect farmers, cooperatives, distributors, and logistics providers into a trusted network using:
 
-Built by producers, technologists, and supply chain experts, TerraDAO empowers users in emerging and developed markets alike to trade with **real trust, real-time data, and full control**.
+- **Smart contracts** for settlement  
+- **USDC-based escrow** for secure payments  
+- **DAO-driven dispute resolution** for fairness  
 
-Learn more at [terradao.io](https://terradao.io)
+**No intermediaries. No opaque fees. Just agriculture, governed by its community.**
+
+Our mission is simple:  
+Bring **real trust, real-time data, and transparent governance** to global agri-markets.
+
+Learn more at [agriguilddao.org](https://agriguilddao.org)
 
 ---
 
 ## 🔄 Current Platform Status
 
-| Feature         | Status                |
-|------------------|------------------------|
-| **Login**        | ⛔ Temporarily Unavailable |
-| **Registration** | ⛔ Temporarily Unavailable |
-| **Trading Desk** | ✅ Available (Read-Only)   |
-| **Marketplace**  | ✅ Fully Operational       |
-| **Web Blog**     | ✅ processing               |
-| **Localization** | ✅ processing         |
+| Feature           | Status                     |
+|--------------------|----------------------------|
+| **Login**          | ⛔ Offline (API migration) |
+| **Registration**   | ⛔ Offline (API migration) |
+| **Marketplace**    | ✅ Live (Read-Only)        |
+| **Trading Desk**   | 🟡 In Testing (Rust REST)  |
+| **Web Blog**       | ✅ Operational             |
+| **Localization**   | 🟡 In Progress             |
 
 ---
 
-## 📆 Expected Availability
+## 📆 Roadmap & Availability
 
-We’re actively working to restore full access, including login and onboarding features.  
-Estimated completion: **Coming Soon**  
-Updates will be shared here and on [@terradao](https://twitter.com/terradao).
+- **Phase 1 (Now):** REST API migration → Rust + proper CORS headers  
+- **Phase 2 (Q3):** Full onboarding flow (registration + login)  
+- **Phase 3 (Q4):** DAO governance layer & trust attestation  
+
+Status updates drop here and on [@AgriGuildDAO](https://x.com/AgriGuildDAO).  
 
 ---
 
 ## 🛠️ Behind the Scenes
 
-These improvements are part of our commitment to:
+What we’re building right now:  
 
-- Enabling seamless cross-border trade for producers and buyers.
-- Expanding support for multiple languages and regions.
-- Making the DAO truly community-owned and accessible.
+- ⚡ Migrating to Rust for predictable performance + memory safety  
+- 🌍 Enabling multilingual UX for cross-border users  
+- 🔗 Extending DAO tooling for **community-driven governance**  
+- 🛰️ Setting up a **transparent status dashboard** (this repo!)  
 
 ---
 
 ## 📫 Need Help?
 
-For urgent access requests, press inquiries, or collaboration proposals, please reach out:
+For contributors, collaborators, or press inquiries:  
 
-**📧** support@terradao.io
+- **Email:** support@agriguilddao.org  
+- **X (Twitter):** [@AgriGuildDAO](https://x.com/AgriGuildDAO)
+
+- The best way to contribute is to **join the conversation**:
+
+- Follow us on [X (Twitter) @AgriGuildDAO](https://x.com/AgriGuildDAO) for real-time updates, events, and calls for contributors.  
+- Share feedback, ideas, or feature requests by opening an **Issue** in this repo.  
+- Watch this repository to stay in the loop on API migrations, governance proposals, and new marketplace features.  
+
+
+As the project matures, we’ll publish a full **CONTRIBUTING.md** focused on:  
+- 📦 **Fulfillment specifications** (packaging, labeling, traceability codes)  
+- 📝 **Metadata standards** (product categories, origin data, compliance tags)  
+- 🌍 **DAO proposal process** for evolving these standards together  
+
 
 ---
 
-**Last Updated:** June 23, 2025
-```
-
-
+**Last Updated:** August 31, 2025
