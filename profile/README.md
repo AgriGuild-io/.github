@@ -19,7 +19,7 @@ We connect farmers, cooperatives, distributors, and logistics providers into a t
 **No intermediaries. No opaque fees. Just agriculture, governed by its community.**
 
 Our mission is simple:  
-Bring **real trust, real-time data, and transparent governance** to global agri-markets.
+Foster **trust, real-time market data, and transparent governance** to global agri-markets.
 
 Learn more at [agriguilddao.org](https://agriguilddao.org)
 
