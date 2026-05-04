@@ -8,6 +8,7 @@ No intermediaries
 No custodial control of funds
 No opaque settlement layers
 Only verifiable, participant-controlled execution
+
 🌍 Vision
 
 Agricultural markets are fragmented, slow, and trust-dependent.
@@ -41,6 +42,7 @@ Secure CORS-enabled gateway layer
 Transaction orchestration services
 Indexing + off-chain computation layer
 Stateless coordination between users and on-chain programs
+
 🧠 Intelligence Layer (LangChain Orchestration)
 
 A reasoning and data orchestration layer enabling intelligent workflows across the protocol:
@@ -60,10 +62,12 @@ This layer acts as the cognitive interface of AgriGuildDAO, enhancing decision-m
 Marketplace interface for buyers & sellers
 Logistics + fulfillment coordination layer
 Role-based access (farmer, broker, distributor, validator)
+
 🧩 Governance Layer (DAO)
 Proposal-driven protocol evolution
 Dispute arbitration framework
 Community-managed standards (grading, compliance, metadata)
+
 🛰️ System Properties
 Non-custodial execution by design
 Trust-minimized trade settlement
@@ -71,6 +75,7 @@ Deterministic on-chain enforcement logic
 Composable agricultural asset structures (batch-level tracking)
 Extensible metadata standards for global commodities
 Hybrid verification across on-chain and off-chain systems
+
 🔐 Economic Model
 
 AgriGuildDAO introduces a participant-controlled settlement model:
