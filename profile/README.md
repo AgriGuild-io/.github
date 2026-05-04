@@ -1,84 +1,127 @@
-# 🌱 AgriGuildDAO Platform Status
+🌱 AgriGuildDAO
 
-Welcome to the official status board for **AgriGuildDAO**.  
-We’re in the middle of a major refactor—migrating our core services to **Rust-based REST APIs with proper CORS** to improve speed, security, and developer experience.
+A decentralized agricultural trade and governance protocol built on Solana.
 
-Not affiliated with Terra (LUNA) or Terraform Labs. Built independently on **Solana**.
+AgriGuildDAO provides the foundational rails for global agricultural commerce—combining smart contracts, non-custodial settlement primitives, and DAO governance to enable a transparent, permissionless marketplace between producers, distributors, and logistics networks.
 
----
+No intermediaries
+No custodial control of funds
+No opaque settlement layers
+Only verifiable, participant-controlled execution
+🌍 Vision
 
-## 🌍 What is AgriGuildDAO?
+Agricultural markets are fragmented, slow, and trust-dependent.
 
-**AgriGuildDAO is a decentralized governance and marketplace protocol for agriculture.**  
-We connect farmers, cooperatives, distributors, and logistics providers into a trusted network using:
+AgriGuildDAO replaces this with a composable economic layer for agriculture, enabling:
 
-- **Smart contracts** for settlement  
-- **USDC-based escrow** for secure payments  
-- **DAO-driven dispute resolution** for fairness  
+🧾 Programmable trade agreements
+💸 Non-custodial stablecoin settlement flows
+🧠 DAO-based dispute resolution
+🌐 Cross-border supply chain coordination
+🔗 On-chain + off-chain hybrid verification systems
 
-**No intermediaries. No opaque fees. Just agriculture, governed by its community.**
+The goal is not to digitize agriculture—it is to rebuild its trust layer from first principles.
 
-Our mission is simple:  
-Foster **trust, real-time market data, and transparent governance** to global agri-markets.
+🧠 Core Architecture
 
-Learn more at [agriguilddao.org](https://agriguilddao.org)
+AgriGuildDAO is built as a modular, multi-layer system with an integrated intelligence layer:
 
----
+⚙️ Protocol Layer (On-chain – Solana)
+Non-custodial escrow logic enforced via smart contracts
+Seller-controlled settlement conditions
+Stablecoin-based atomic settlement flows (USDC or equivalent)
+Trade lifecycle state machines
+DAO governance execution layer
 
-## 🔄 Current Platform Status
+Funds are never held by intermediaries or platform operators.
 
-| Feature           | Status                     |
-|--------------------|----------------------------|
-| **Login**          | ⛔ Offline (API migration) |
-| **Registration**   | ⛔ Offline (API migration) |
-| **Marketplace**    | ✅ Live (Read-Only)        |
-| **Trading Desk**   | 🟡 In Testing (Rust REST)  |
-| **Web Blog**       | ✅ Operational             |
-| **Localization**   | 🟡 In Progress             |
+🔌 Execution Layer (Rust Services)
+High-performance REST APIs
+Secure CORS-enabled gateway layer
+Transaction orchestration services
+Indexing + off-chain computation layer
+Stateless coordination between users and on-chain programs
+🧠 Intelligence Layer (LangChain Orchestration)
 
----
+A reasoning and data orchestration layer enabling intelligent workflows across the protocol:
 
-## 📆 Roadmap & Availability
+📄 Document understanding (shipping docs, certifications, invoices)
+🔍 Retrieval-Augmented Generation (RAG) over supply chain + marketplace data
+🧾 Structured extraction from unstructured agricultural records
+🤖 Agent-based workflows for:
+Trade validation assistance
+Dispute context aggregation
+Metadata normalization across suppliers
+🔗 Bridges on-chain state with off-chain semantic context
 
-- **Phase 1 (Now):** REST API migration → Rust + proper CORS headers  
-- **Phase 2 (Q3):** Full onboarding flow (registration + login)  
-- **Phase 3 (Q4):** DAO governance layer & trust attestation  
+This layer acts as the cognitive interface of AgriGuildDAO, enhancing decision-making without ever taking custody of assets.
 
-Status updates drop here and on [@AgriGuildDAO](https://x.com/AgriGuildDAO).  
+🌐 Application Layer
+Marketplace interface for buyers & sellers
+Logistics + fulfillment coordination layer
+Role-based access (farmer, broker, distributor, validator)
+🧩 Governance Layer (DAO)
+Proposal-driven protocol evolution
+Dispute arbitration framework
+Community-managed standards (grading, compliance, metadata)
+🛰️ System Properties
+Non-custodial execution by design
+Trust-minimized trade settlement
+Deterministic on-chain enforcement logic
+Composable agricultural asset structures (batch-level tracking)
+Extensible metadata standards for global commodities
+Hybrid verification across on-chain and off-chain systems
+🔐 Economic Model
 
----
+AgriGuildDAO introduces a participant-controlled settlement model:
 
-## 🛠️ Behind the Scenes
+Funds remain in user-controlled wallets
+Escrow contracts execute only under predefined conditions
+Settlement occurs via smart contract resolution or DAO arbitration
+Reputation is derived from verified fulfillment history
 
-What we’re building right now:  
+The protocol enforces rules, but never controls funds.
 
-- ⚡ Migrating to Rust for predictable performance + memory safety  
-- 🌍 Enabling multilingual UX for cross-border users  
-- 🔗 Extending DAO tooling for **community-driven governance**  
-- 🛰️ Setting up a **transparent status dashboard** (this repo!)  
+🌍 Interoperability Strategy
 
----
+The protocol is designed to integrate with:
 
-## 📫 Need Help?
+Supply chain systems (logistics APIs, ERP systems)
+External payment rails (stablecoins, fiat bridges)
+Certification systems (origin, compliance, organic verification)
+Emerging DePIN / IoT traceability networks
+🧭 Design Principles
+Non-custodial by default
+Verifiability over trust
+Modularity over monoliths
+Composability over rigidity
+Minimal assumptions about participants
+Protocol-first, UI-second architecture
+📫 Ecosystem
+Website: https://agriguilddao.org
+X (Twitter): https://x.com/AgriGuildDAO
+Contact: support@agriguilddao.org
+🧩 Contributing Philosophy
 
-For contributors, collaborators, or press inquiries:  
+AgriGuildDAO evolves through protocol participation.
 
-- **Email:** support@agriguilddao.org  
-- **X (Twitter):** [@AgriGuildDAO](https://x.com/AgriGuildDAO)
+Collaborators engage through:
 
-- The best way to contribute is to **join the conversation**:
+Protocol design discussions
+Metadata and compliance standard proposals
+Governance simulations
+Infrastructure integrations
 
-- Follow us on [X (Twitter) @AgriGuildDAO](https://x.com/AgriGuildDAO) for real-time updates, events, and calls for contributors.  
-- Share feedback, ideas, or feature requests by opening an **Issue** in this repo.  
-- Watch this repository to stay in the loop on API migrations, governance proposals, and new marketplace features.  
+A formal CONTRIBUTING.md will define:
 
+Data schemas for agricultural assets
+Supply chain metadata standards
+DAO proposal lifecycle rules
+Integration guidelines for external systems
+🛰️ Status
 
-As the project matures, we’ll publish a full **CONTRIBUTING.md** focused on:  
-- 📦 **Fulfillment specifications** (packaging, labeling, traceability codes)  
-- 📝 **Metadata standards** (product categories, origin data, compliance tags)  
-- 🌍 **DAO proposal process** for evolving these standards together  
+AgriGuildDAO is actively evolving toward a production-grade decentralized trade protocol.
 
+This repository reflects the architectural state of the system, not its final implementation.
 
----
-
-**Last Updated:** August 31, 2025
+Last Updated: May 2026
